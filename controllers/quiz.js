@@ -125,6 +125,6 @@ exports.getByLevelId = async (req, res) => {
         }
     })
     res.json({
-        message: `Quiz berhasil di ambil dengan categoryId=${id}.`,
+        data : quizzes
     });
 }
